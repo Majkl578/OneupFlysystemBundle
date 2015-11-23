@@ -52,6 +52,7 @@
                <service id="oneup_flysystem.adapter.gridfs" class="League\Flysystem\GridFS\GridFSAdapter" abstract="true" public="false">
                    <argument /><!-- Client -->
                </service>
+               <service id="oneup_flysystem.adapter.memory" class="League\Flysystem\Memory\MemoryAdapter" abstract="true" public="false" />
            </services>
 
 </container>
